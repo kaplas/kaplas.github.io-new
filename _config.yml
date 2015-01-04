@@ -1,20 +1,17 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
-canonical: http://jekyll.gtat.me
+title:            Kaplas
+tagline:          Jouni Kaplas
+description:      Personal homepage and blog of Jouni Kaplas
+canonical: http://cido.github.io
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Jouni Kaplas
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
+  bio:            Slow dude
+  email:          contact.dp@palvelu.kaplas.fi
+  twitter:        JouniKaplas
+  github:         cido
+  location:       "Tampere, Finland"
   # Plug in your disqus shortname!
 
 tools:
@@ -24,17 +21,12 @@ tools:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+    url: https://github.com/cido
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Helsinki
 future:      true
 highlighter: pygments
 markdown:    kramdown
