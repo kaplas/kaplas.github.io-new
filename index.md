@@ -6,4 +6,6 @@ image:
   feature: typewriter.jpg
 ---
 
-This page is.. um.. a little bit under construction.
+Web, bicycles, coffee, eco and slow life. Working as a junior douchebag (well, actually as a software developer) at [Futurice](http://futurice.com/) Tampere.
+
+Did I mention I also like coffee?
