@@ -22,7 +22,7 @@ tools:
 # For external links add external: true
 links:
   - title: Blog
-    url: /articles
+    url: /blog
   - title: Github
     url: https://github.com/cido
     external: true
@@ -51,7 +51,7 @@ sass:
     style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /blog/:title
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
