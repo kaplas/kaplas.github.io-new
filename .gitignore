@@ -6,3 +6,6 @@ _site
 
 # ST3's project file is OK, but the workspace file is not
 *.sublime-workspace
+
+# Ulysses generates a lot of crap
+*.Ulysses*
