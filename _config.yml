@@ -1,7 +1,7 @@
-title:            Kaplas
-tagline:          Jouni Kaplas
+title:            Kaplas.net
+slogan:           My blog about tech and slow life
 description:      Personal homepage and blog of Jouni Kaplas
-canonical: http://cido.github.io
+canonical:        http://cido.github.io
 
 # Owner/author information
 owner:
@@ -48,7 +48,7 @@ kramdown:
     coderay_css: class
 
 sass:
-    style: :compressed
+    sass_dir: assets/_sass
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /blog/:title

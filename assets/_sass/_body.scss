@@ -1,0 +1,20 @@
+body {
+	padding: 1em;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+@include breakpoint($large-device-breakpoint) {
+	.container {
+		width: $large-device-breakpoint;
+	}
+}
+
+h1 {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}

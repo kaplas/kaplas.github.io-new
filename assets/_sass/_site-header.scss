@@ -1,0 +1,32 @@
+.site-header {
+	@extend .header-typeface;
+	text-align: center;
+
+	color: gray;
+
+	margin-bottom: 3em;
+
+	.name {
+		font-weight: bold;
+	}
+}
+
+@media only screen and (min-width: $small-device-breakpoint) {
+	.site-header {
+		font-size: $h4-font-size;
+	}
+}
+
+@media only screen and (min-width: $middle-device-breakpoint) {
+	.site-header {
+
+		.domain, .slogan {
+			display: inline;
+		}
+
+		.domain {
+			margin-right: 1.5em;
+		}
+
+	}
+}

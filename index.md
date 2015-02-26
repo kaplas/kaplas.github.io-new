@@ -9,3 +9,5 @@ image:
 Web, bicycles, coffee, eco and slow life. Working as a junior douchebag (well, actually as a software developer) at [Futurice](http://futurice.com/) Tampere.
 
 Did I mention I also like coffee?
+
+[Blog](/blog), [Github](https://github.com/cido/), [Twitter](https://twitter.com/JouniKaplas) & [Email](contact.dp@palvelu.kaplas.fi)
