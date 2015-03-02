@@ -7,7 +7,7 @@
 
 $small-device-breakpoint: 400px;
 $middle-device-breakpoint: 550px;
-$large-device-breakpoint: 700px;
+$large-device-breakpoint: 720px;
 
 @mixin breakpoint($point) {
  	@media only screen and (min-width: $point) {
@@ -17,6 +17,7 @@ $large-device-breakpoint: 700px;
 
 
 @import "normalize";
+@import "colors";
 @import "typography";
 
 @import "body";

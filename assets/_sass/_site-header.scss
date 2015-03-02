@@ -2,18 +2,18 @@
 	@extend .header-typeface;
 	text-align: center;
 
-	color: gray;
+	color: $faint-color;
 
 	margin-bottom: 3em;
 
 	.name {
-		font-weight: bold;
+		font-weight: bolder;
 	}
 }
 
 @media only screen and (min-width: $small-device-breakpoint) {
 	.site-header {
-		font-size: $h4-font-size;
+		//font-size: $h4-font-size;
 	}
 }
 

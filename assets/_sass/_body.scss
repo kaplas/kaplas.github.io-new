@@ -1,4 +1,5 @@
 body {
+	background-color: $background-color;
 	padding: 1em;
 }
 
@@ -17,4 +18,20 @@ h1 {
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	//text-decoration: underline;
+}
+
+.date {
+	color: $faint-color;
+	text-align: center;
+}
+
+h1 + .date {
+	margin-top: -1em;
+}
+
+article header {
+	margin-top: 6em;
+	margin-bottom: 3em;
 }
