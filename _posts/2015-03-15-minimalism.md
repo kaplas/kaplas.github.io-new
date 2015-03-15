@@ -30,7 +30,7 @@ Which leads us to think about the very opposite: Can you reduce your mental load
 
 All in all, minimalism is not so much about owning or not owning of some particular item; it’s much more about having or not having the mental load and meta-work associated with it.
 
-## Simple steps how you can let go of things today
+## Simple steps on how you can let go of things today
 
 Trying this method out is not really so hard. Just take 10 minutes of your time, and follow these steps:
 
