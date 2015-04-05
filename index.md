@@ -11,4 +11,4 @@ Web, bicycles, coffee, eco and slow life. Working as a junior douchebag (well, a
 
 Did I mention I also like coffee?
 
-[Blog](/blog), [Github](https://github.com/cido/), [Twitter](https://twitter.com/JouniKaplas) & [Email](mailto:contact.dp@palvelu.kaplas.fi)
+[Blog](/blog), [Github](https://github.com/kaplas/), [Twitter](https://twitter.com/kaplas) & [Email](mailto:contact.dp@palvelu.kaplas.fi)
