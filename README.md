@@ -15,6 +15,6 @@ All content of this homepage/repository (page texts, blog posts, photographs, et
 * [Check out the human readable summary of the license](http://creativecommons.org/licenses/by-sa/4.0/) or
 * [Read the whole freaking license text](/LICENSE-CC-BY-SA-4)
 
-The blog theme on the other hand is based on [the Balzac theme for Jekyll](https://github.com/coletownsend/balzac-for-jekyll), which is _MIT Licensed_. This slightly-modified theme of mine follows the very same license.
+The blog theme on the other hand is based on [the Poole theme for Jekyll](https://github.com/poole/poole), which is _MIT Licensed_. This slightly-modified theme of mine follows the very same license.
 
 * [Read the not-so-freaking license text](/LICENSE-MIT)
