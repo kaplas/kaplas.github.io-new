@@ -1,6 +1,6 @@
 # Personal homepage of Jouni Kaplas
 
-[kaplas.net](http://kaplas.net/) / kaplas.fi / cido.github.io
+[kaplas.net](http://kaplas.net/) / kaplas.fi / kaplas.github.io
 
 
 ## Links
