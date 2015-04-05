@@ -1,4 +1,13 @@
 html {
-  font-family: 'Calendas Plus', serif;
+  font-family: 'cardo', Georgia, Cambria, 'Times New Roman', Times, serif;
   font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+
+.masthead-title small {
+	font-weight: inherit;
 }
