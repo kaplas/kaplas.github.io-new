@@ -6,6 +6,8 @@ category: articles
 tags: [new year, resolution, javascript, gitHub]
 ---
 
+I've decided that 2015 will be the year when I finally start to do stuff instead of just dreaming about it.
+
 My New Year's resolution for 2015 will be:
 
 * **Begin to write once again.** I wrote my own fairytales when I was 7. I learned to create webpages in 1996, and immeadiately wanted to start an online game magazine (that attempt failed though). At the age of 13 I wrote about my school bullying online. A few years later I kept an online diary. And so one... you get the point. For some reason in the last 10 years I haven't written so much, and I want to find that enthusiasm for words again. I plan to write at least 20 blog posts this year (either here or at [my employer's blog](http://futurice.com/blog/)).

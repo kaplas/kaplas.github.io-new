@@ -6,6 +6,8 @@ category: articles
 tags: [minimalism, slow, life, things, stuff]
 ---
 
+For the past months I have been trying to get my head around the idea of minimalism.
+
 Now I feel I have finally grasped some its ideas and took those into use in my own life. The most important lesson has been to be able to let go of things.
 
 ## Minimalism, misinterpreted
