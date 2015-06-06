@@ -1,0 +1,31 @@
+$image-caption-size: 0.8rem;
+$margin-around-features: 2rem;
+
+.post {
+
+	.page-date {
+		color: $faint-color;
+		margin-bottom: $margin-around-features;
+		display: block;
+	}
+
+	img {
+		border-radius: 0;
+		margin-top: $margin-around-features;
+		margin-bottom: 1rem - $image-caption-size;
+	}
+
+	img + em {
+		// Image captions
+		font-size: $image-caption-size;
+		display: block;
+		text-align: center;
+		margin-bottom: $margin-around-features;
+	}
+
+	blockquote {
+		margin-top: $margin-around-features;
+		margin-bottom: $margin-around-features;
+	}
+
+}
