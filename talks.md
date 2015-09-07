@@ -4,7 +4,7 @@ title: "Conference talks"
 permalink: "/talks/index.html"
 ---
 
-This is a list of all my conference talk topics so far. If you're interested in getting me to your conference, feel free to ping me [at Twitter](https://twitter.com/kaplas) or [via email](mailto:contact.dp@palvelu.kaplas.fi).
+This is a list of all my conference talk topics so far. If you're interested in getting me to your conference, feel free to ping me [at Twitter](https://twitter.com/kaplas) or [via email](mailto:contact.dp@palvelu.kaplas.fi). You can also check my [Lanyrd profile here](http://lanyrd.com/profile/kaplas/).
 
 ## Will your JavaScript app work in 2030?
 
