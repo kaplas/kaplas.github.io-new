@@ -10,6 +10,11 @@
         {% endif %}
     </title>
 
+    {% if page.redirect %}
+        <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
+        <link rel="canonical" href="{{ page.redirect }}" />
+    {% endif %}
+
     <!-- Basic meta info -->
     <meta name="description" content="{{ page.description }}">
     <meta name="keywords" content="{{ page.tags | join: ', ' }}">

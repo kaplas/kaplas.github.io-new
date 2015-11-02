@@ -11,3 +11,5 @@ I'm very much interested in web, golf, bicycles, coffee, eco, nature and slow li
 During daytime I'm working as a junior douchebag (well, actually as a software developer) at [Futurice](http://futurice.com/) Tampere.
 
 [Blog](/blog), [Conference talks](/talks), [Github](https://github.com/kaplas/), [Twitter](https://twitter.com/kaplas) & [Email](mailto:contact.dp@palvelu.kaplas.fi)
+
+[Or just subscribe to my email list, like the cool kids](/subscribe)
