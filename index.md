@@ -6,7 +6,7 @@ title: "Jouni Kaplas"
 
 Hi there! I'm a self-taught Lego engineer specializing in colorful space ships.
 
-I'm very much interested in web, golf, bicycles, coffee, eco, nature and slow life. Lately I have also started to [speak at tech conferences](/talks).
+I'm very much interested in web, golf, bicycles, coffee, eco, nature and slow life. From time to time I also [give talks at tech conferences](/talks).
 
 During daytime I'm working as a junior douchebag (well, actually as a software developer) at [Futurice](http://futurice.com/) Tampere.
 
