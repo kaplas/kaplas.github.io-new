@@ -4,5 +4,7 @@ node_js:
 sudo: required
 services:
   - docker
+install:
+  - npm install -g now
 script:
   - docker run -v "$PWD:/srv/jekyll" jekyll/jekyll:pages jekyll build
