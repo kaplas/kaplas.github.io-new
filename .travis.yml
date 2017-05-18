@@ -5,6 +5,7 @@ sudo: required
 services:
   - docker
 before_install:
+  - cp .gitignore .npmignore
   - docker run -v "$PWD:/srv/jekyll" jekyll/jekyll:pages jekyll build
 install:
   - npm install -g now now-pipeline
