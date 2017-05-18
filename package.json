@@ -1,0 +1,19 @@
+{
+  "name": "jouni-kaplas-homepage",
+  "version": "0.0.1",
+  "description": "Jouni Kaplas's homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo No tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaplas/homepage.git"
+  },
+  "author": "Jouni Kaplas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaplas/homepage/issues"
+  },
+  "homepage": "https://github.com/kaplas/homepage#readme"
+}
