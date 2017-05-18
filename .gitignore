@@ -9,3 +9,7 @@ _site
 
 # Ulysses generates a lot of crap
 *.Ulysses*
+
+# Others
+.DS_Store
+.bundle

@@ -2,6 +2,10 @@
 
 [kaplas.net](http://kaplas.net/) / kaplas.fi / kaplas.github.io
 
+## Build without hassle
+
+docker run -v "$PWD:/srv/jekyll" jekyll/jekyll:pages jekyll build
+
 
 ## Links
 
