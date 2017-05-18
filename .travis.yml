@@ -4,10 +4,11 @@ node_js:
 sudo: required
 services:
   - docker
+before_install:
+  - docker run -v "$PWD:/srv/jekyll" jekyll/jekyll:pages jekyll build
 install:
   - npm install -g now now-pipeline
 script:
-  - docker run -v "$PWD:/srv/jekyll" jekyll/jekyll:pages jekyll build
   - now-pipeline --alias kaplas.net --test "echo No tests"
   - now-pipeline --alias kaplas.fi --test "echo No tests"
   - now-pipeline-prune
