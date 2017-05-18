@@ -5,12 +5,15 @@ sudo: required
 services:
   - docker
 install:
-  - npm install -g now
+  - npm install -g now now-pipeline
 script:
   - docker run -v "$PWD:/srv/jekyll" jekyll/jekyll:pages jekyll build
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: cd _site && now -t $NOW_TOKEN
-  on:
-    branch: master
+  - now-pipeline --alias kaplas.net --test "echo No tests"
+  - now-pipeline --alias kaplas.fi --test "echo No tests"
+  - now-pipeline-prune
+# deploy:
+#   provider: script
+#   skip_cleanup: true
+#   script: cd _site && now -t $NOW_TOKEN
+#   on:
+#     branch: master
