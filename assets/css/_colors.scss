@@ -1,8 +1,12 @@
-// Colors from:  http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_.
+// Colors from: https://designschool.canva.com/blog/website-color-schemes/ and then #21
+$blueberry: #6B7A8F;
+$apricot: #F7882F;
+$citrus: #F7C331;
+$applecore: #DCC7AA;
 
-$background-color: #F6F5ED;
-$text-color: #404344;
-$accent-color-1: #06B9E0;
+$background-color: #fdfcfa;
+$text-color: #304344;
+$accent-color-1: darken($apricot, 10%);
 $accent-color-2: #B0D8CF;
 $accent-color-3: #FFA3A3;
 $faint-color: #CCCBBF;
