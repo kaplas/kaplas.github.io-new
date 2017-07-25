@@ -1,11 +1,22 @@
 # Personal homepage of Jouni Kaplas
 
-[kaplas.net](http://kaplas.net/) / kaplas.fi / kaplas.github.io
+[www.kaplas.net](http://www.kaplas.net/) / www.kaplas.fi
 
-## Build without hassle
+## Local development
 
-docker run -v "$PWD:/srv/jekyll" jekyll/jekyll:pages jekyll build
+```
+docker build -t homepage . && docker run -it --rm --volume="$PWD":/usr/src/app -p 4000:4000 --name homepage-run homepage
+```
 
+Site will be accessible at http://localhost:4000
+
+## Generating new `Gemfile.lock`
+
+```
+docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:2.2 bundle install
+```
+
+## 
 
 ## Links
 
