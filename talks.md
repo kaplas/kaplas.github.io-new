@@ -18,8 +18,7 @@ Presented:
 
 [Slide deck](https://speakerdeck.com/kaplas/will-your-javascript-app-work-in-2030). Presented:
 
-* 7th of September 2017 at [TampereJS](https://meetabit.com/events/tamperejs-sep-2017), Finland
-* 28th of August 2015 at [Front in Amsterdam 2015](http://frontinamsterdam.nl/), Netherlands
+* 28th of June 2015 at [Front in Amsterdam 2015](http://frontinamsterdam.nl/), Netherlands
 
 ## Storing all state on the server side
 
