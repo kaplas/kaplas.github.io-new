@@ -1,0 +1,102 @@
+$author-and-date__image-size: 3.5rem;
+
+.author-and-date {
+    color: $text-color;
+    border-top: 1px solid $faint-color;
+    margin: 4rem 1rem;
+    padding: -0.5rem 0 0 0;
+
+    font-variant: small-caps;
+    font-size: 0.7rem;
+    font-family: $sans-serif-font-family;
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+
+.author-and-date__blocks {
+    margin-top: -1rem;
+}
+
+.author-and-date__date-block {
+}
+
+.author-and-date__image-block {
+    display: inline-block;
+
+    width: $author-and-date__image-size;
+    height: $author-and-date__image-size;
+    border: 0.5rem solid $background-color;
+    border-radius: $author-and-date__image-size / 2;
+
+    background-image: url(#{$base-url}assets/images/avatar-square-thumbnail.jpg);
+    background-size: cover;
+}
+
+.author-and-date__name-block {
+}
+
+
+@media (min-width: 30em) {
+    .author-and-date__blocks {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .author-and-date__date-block {
+        text-align: right;
+        padding-right: 0.5rem;
+
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-flex: 1 1 $author-and-date__image-size*2;
+        -ms-flex: 1 1 $author-and-date__image-size*2;
+        flex: 1 1 $author-and-date__image-size*2;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+    }
+
+    .author-and-date__image-block {
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+        -webkit-flex: 0 1 $author-and-date__image-size;
+        -ms-flex: 0 1 $author-and-date__image-size;
+        flex: 0 1 $author-and-date__image-size;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+    }
+
+    .author-and-date__name-block {
+        padding-left: 0.5rem;
+        text-align: left;
+
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2;
+        -webkit-flex: 1 1 $author-and-date__image-size*2;
+        -ms-flex: 1 1 $author-and-date__image-size*2;
+        flex: 1 1 $author-and-date__image-size*2;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+    }
+}

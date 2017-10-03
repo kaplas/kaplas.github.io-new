@@ -1,6 +1,8 @@
 ---
 ---
 
+$base-url: "{{ site.baseurl }}";
+
 @import "colors";
 
 @import "poole";
@@ -9,3 +11,5 @@
 
 @import "list-of-posts"; // _layouts/posts.html
 @import "post";          // _layouts/post.html
+
+@import "author-and-date";

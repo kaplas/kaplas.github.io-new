@@ -3,9 +3,26 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
+  <h1 class="page-title"><span class="page-title-inline">{{ page.title }}</span></h1>
   {{ content }}
+
+  <div class="author-and-date">
+
+    <div class="author-and-date__blocks">
+      <div class="author-and-date__image-block"></div>
+      <div class="author-and-date__date-block">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%-dth of %B %Y" }}
+        </time>
+      </div>
+      <div class="author-and-date__name-block">
+        By <span class="author-and-date__name">
+          {{ site.owner.name }}
+        </span>
+      </div>
+    </div>
+
+  </div>
 </article>
 
 

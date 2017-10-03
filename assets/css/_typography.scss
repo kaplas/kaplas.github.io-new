@@ -1,11 +1,38 @@
+$serif-font-family: 'cardo', Georgia, Cambria, 'Times New Roman', Times, serif;
+$sans-serif-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
 html {
-  font-family: 'cardo', Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-family: $serif-font-family;
   font-weight: 300;
 }
 
+/* Copied from https://css-tricks.com/snippets/css/better-helvetica/ */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 100;
+  font-family: $sans-serif-font-family; 
+  font-weight: 900;
+}
+
+.page-title-inline {
+  margin-right: 30%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: inline;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.0;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 h2 {

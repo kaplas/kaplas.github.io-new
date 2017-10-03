@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div class="list-of-posts">
-  <h1 class="page-title">{{ page.title }}</h1>
+  <h1 class="page-title"><span class="page-title-inline">{{ page.title }}</span></h1>
 
   {% for post in site.posts %}
   <article class="post">
-    <h2 class="post-title">
+    <h2>
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>

@@ -1,7 +1,7 @@
 ---
 layout: page
 front-page: true
-title: "Jouni Kaplas"
+title: "Jouni Aleksi Kaplas"
 ---
 
 Hi there! I'm a self-taught Lego engineer specializing in colorful space ships.
