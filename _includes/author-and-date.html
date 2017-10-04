@@ -1,0 +1,17 @@
+<div class="author-and-date">
+
+  <div class="author-and-date__blocks">
+    <div class="author-and-date__image-block"></div>
+    <div class="author-and-date__date-block">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%-dth of %B %Y" }}
+      </time>
+    </div>
+    <div class="author-and-date__name-block">
+      By <span class="author-and-date__name">
+        {{ site.owner.name }}
+      </span>
+    </div>
+  </div>
+
+</div>
