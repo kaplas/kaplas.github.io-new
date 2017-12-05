@@ -1,0 +1,8 @@
+{% capture tweetURL %}http://twitter.com/share?text={{ page.title | url_encode }}&url={{ site.baseurl }}{{ page.url }}&via=kaplas{% endcapture %}
+<p class="please-share-this">
+  If you liked this article, please consider sharing
+  (<a href={{ tweetURL }}>Tweet this</a>
+  tweeting, facebooking)
+  it to your followers.<br/>
+  {{ tweetURL }}
+</p>

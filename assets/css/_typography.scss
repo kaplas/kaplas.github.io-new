@@ -43,3 +43,10 @@ h2 {
 .masthead-title small {
 	font-weight: inherit;
 }
+
+@mixin footer-small-caps-text() {
+  font-variant: small-caps;
+  font-size: 0.7rem;
+  font-family: $sans-serif-font-family;
+  letter-spacing: 0.08em;
+}

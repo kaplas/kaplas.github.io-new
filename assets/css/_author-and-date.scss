@@ -3,13 +3,10 @@ $author-and-date__image-size: 3.5rem;
 .author-and-date {
     color: $text-color;
     border-top: 1px solid $faint-color;
-    margin: 4rem 1rem;
+    margin: 5rem 1rem;
     padding: -0.5rem 0 0 0;
 
-    font-variant: small-caps;
-    font-size: 0.7rem;
-    font-family: $sans-serif-font-family;
-    letter-spacing: 0.08em;
+    @include footer-small-caps-text;
     text-align: center;
 }
 

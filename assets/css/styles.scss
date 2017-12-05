@@ -12,4 +12,6 @@ $base-url: "{{ site.baseurl }}";
 @import "list-of-posts"; // _layouts/posts.html
 @import "post";          // _layouts/post.html
 
+// "Components"
 @import "author-and-date";
+@import "please-share-this";
