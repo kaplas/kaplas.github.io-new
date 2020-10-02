@@ -4,9 +4,9 @@ front-page: true
 title: "Jouni Aleksi Kaplas"
 ---
 
-Hi there! I'm a self-taught Lego engineer specializing in building colourful space ships with my daughter.
+Hi there!
 
-I'm very much interested in parenthood, eco, nature, general well-being and slow life.
+I'm a self-taught Lego engineer, specializing in building colourful space ships with my daughter. I'm very much interested in parenthood, eco, nature, general well-being and slow life.
 
 During daytime I work as a Solutions Architect (read: a nerd) at [Futurice](https://futurice.com/) Tampere. From time to time I also [give talks at tech conferences](/talks).
 
