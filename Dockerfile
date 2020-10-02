@@ -1,4 +1,4 @@
-FROM ruby:2.2
+FROM ruby:2.7
 
 # throw errors if Gemfile has been modified since Gemfile.lock
 RUN bundle config --global frozen 1
@@ -10,7 +10,8 @@ WORKDIR /usr/src/app
 
 COPY Gemfile /usr/src/gemfile/
 COPY Gemfile.lock /usr/src/gemfile/
-RUN bundle install --path /usr/src/gems --gemfile /usr/src/gemfile/Gemfile
+RUN bundle config set path '/usr/src/gems'
+RUN bundle install --gemfile /usr/src/gemfile/Gemfile
 
 EXPOSE 4000
 CMD [ "bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-P", "4000" ]
